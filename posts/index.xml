@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://hohoto.github.io/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Sun, 05 Jul 2020 21:17:58 +0800</lastBuildDate>
+    
+	<atom:link href="https://hohoto.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://hohoto.github.io/posts/my-first-post/</link>
+      <pubDate>Sun, 05 Jul 2020 21:17:58 +0800</pubDate>
+      
+      <guid>https://hohoto.github.io/posts/my-first-post/</guid>
+      <description>如何用 hugo 搭建个人博客 准备  拥有命令行程序 配置了git为环境变量 拥有github账号 一种markdown编辑器  步骤(可见hugo官方[quick start]{https://gohugo.io/getting-started/quick-start/})  去hugo官方下载适合本机版本的安装包，解压并添加到环境变量 使用命令行运行hugo version查看环境变量是否添加成功 创建一个文件夹，在命令行里输入hugo new site username.github.io-creator，即新建了hugo站点 cd至username.github.io-creator文件夹,输入git init新建本地仓库 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &amp;lsquo;theme = &amp;ldquo;ananke&amp;rdquo;&amp;rsquo; &amp;raquo; config.toml hugo new posts/my-first-post.md 使用文本编辑器打开my-first-post.md 在原始代码下方输入博客内容，完成博客内容后将draft后的true改成false hugo server -D 可在config.toml中修改配置  </description>
+    </item>
+    
+  </channel>
+</rss>
